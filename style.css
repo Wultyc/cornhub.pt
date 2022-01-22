@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "DiplomaRegular";
+    src: URL("./assests/DiplomaRegular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "pricedown";
+    src: URL("./assests/pricedown.otf") format("opentype");
+  }
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #00ffef;
+  }
+  h1 {
+    font-family: "DiplomaRegular";
+    color: deeppink;
+    font-size: 100px;
+  }
+  a {
+    font-family: "pricedown";
+    font-size: x-large;
+  }
+  a:link {
+    color: purple;
+  }
+
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: purple;
+  }
+
+  /* selected link */
+  a:active {
+    color: purple;
+  }
